@@ -1,0 +1,9 @@
+D:/dev/QT/RealTimeVideoConference/build/CMakeFiles/RealTimeVideoConference.dir
+D:/dev/QT/RealTimeVideoConference/build/CMakeFiles/edit_cache.dir
+D:/dev/QT/RealTimeVideoConference/build/CMakeFiles/rebuild_cache.dir
+D:/dev/QT/RealTimeVideoConference/build/CMakeFiles/list_install_components.dir
+D:/dev/QT/RealTimeVideoConference/build/CMakeFiles/install.dir
+D:/dev/QT/RealTimeVideoConference/build/CMakeFiles/install/local.dir
+D:/dev/QT/RealTimeVideoConference/build/CMakeFiles/install/strip.dir
+D:/dev/QT/RealTimeVideoConference/build/CMakeFiles/RealTimeVideoConference_autogen_timestamp_deps.dir
+D:/dev/QT/RealTimeVideoConference/build/CMakeFiles/RealTimeVideoConference_autogen.dir

@@ -1,0 +1,232 @@
+/* 主窗口样式 */
+QMainWindow {
+    background-color: transparent;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+}
+
+/* 中央窗口部件样式 */
+QWidget#centralwidget {
+    background-image: url(":/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-color: #f5f6fa;
+}
+
+/* 顶部框架样式 */
+QFrame#headerFrame {
+    background-color: rgba(44, 62, 80, 0.9);
+    border-bottom: 2px solid #3498db;
+}
+
+/* Logo标签样式 */
+QLabel#appLogoLabel {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border: none;
+    image: url(":/images/logo.png");
+}
+
+/* 左侧框架样式 */
+QFrame#sidebarFrame {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    border: 1px solid #e1e1e1;
+}
+
+/* 右侧框架样式 */
+QFrame#mainContentFrame {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    border: 1px solid #e1e1e1;
+}
+
+/* 按钮样式 */
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 45px;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton:pressed {
+    background-color: #2573a7;
+}
+
+/* 创建房间按钮样式 */
+QPushButton#createMeetingButton {
+    icon: url(":/images/create_room.png");
+    icon-size: 24px;
+    qproperty-icon: url(":/images/create_room.png");
+    qproperty-iconSize: 24px 24px;
+}
+
+/* 加入房间按钮样式 */
+QPushButton#joinMeetingButton {
+    icon: url(":/images/join_room.png");
+    icon-size: 24px;
+    qproperty-icon: url(":/images/join_room.png");
+    qproperty-iconSize: 24px 24px;
+}
+
+/* 设置按钮特殊样式 */
+QPushButton#settingsButton {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    background-color: transparent;
+    padding: 8px;
+    icon: url(":/images/settings.png");
+    icon-size: 24px;
+    qproperty-icon: url(":/images/settings.png");
+    qproperty-iconSize: 24px 24px;
+}
+
+QPushButton#settingsButton:hover {
+    background-color: rgba(52, 152, 219, 0.3);
+    border-radius: 20px;
+}
+
+/* 输入框样式 */
+QLineEdit {
+    padding: 8px 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #3498db;
+}
+
+/* 列表部件样式 */
+QListWidget {
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    background-color: white;
+    padding: 5px;
+}
+
+QListWidget::item {
+    padding: 12px;
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 4px;
+}
+
+QListWidget::item:selected {
+    background-color: #3498db;
+    color: white;
+}
+
+QListWidget::item:hover {
+    background-color: #f5f6fa;
+}
+
+/* 标签样式 */
+QLabel {
+    color: #2c3e50;
+}
+
+QLabel#appTitleLabel {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+QLabel#welcomeMessageLabel {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+QLabel#welcomeDescriptionLabel {
+    color: #34495e;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* 房间列表标签样式 */
+QLabel#meetingListTitle {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 10px;
+}
+
+/* 菜单栏样式 */
+QMenuBar {
+    background-color: #2c3e50;
+    color: white;
+}
+
+QMenuBar::item {
+    padding: 8px 12px;
+    background-color: transparent;
+    color: white;
+}
+
+QMenuBar::item:selected {
+    background-color: #34495e;
+}
+
+QMenu {
+    background-color: white;
+    border: 1px solid #bdc3c7;
+}
+
+QMenu::item {
+    padding: 8px 20px;
+}
+
+QMenu::item:selected {
+    background-color: #3498db;
+    color: white;
+}
+
+/* 窗口控制按钮样式 */
+QPushButton#minButton, QPushButton#maxButton, QPushButton#closeButton {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border: none;
+    background-color: transparent;
+    border-radius: 0px;
+    padding: 8px;
+}
+
+QPushButton#minButton {
+    image: url(":/images/minimize.png");
+}
+
+QPushButton#maxButton {
+    image: url(":/images/maximize.png");
+}
+
+QPushButton#closeButton {
+    image: url(":/images/close.png");
+}
+
+QPushButton#minButton:hover, QPushButton#maxButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+QPushButton#closeButton:hover {
+    background-color: #e74c3c;
+}

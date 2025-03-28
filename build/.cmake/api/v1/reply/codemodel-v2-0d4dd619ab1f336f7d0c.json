@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3ac34fb83de39ac06877.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RealTimeVideoConference",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "RealTimeVideoConference::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RealTimeVideoConference-Debug-a8f160dcbb6fa59fdf26.json",
+					"name" : "RealTimeVideoConference",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RealTimeVideoConference_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RealTimeVideoConference_autogen-Debug-5f72a6b75a820cfd225b.json",
+					"name" : "RealTimeVideoConference_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RealTimeVideoConference_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RealTimeVideoConference_autogen_timestamp_deps-Debug-6e2bd94a19b72599f1cb.json",
+					"name" : "RealTimeVideoConference_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/dev/QT/RealTimeVideoConference/build",
+		"source" : "D:/dev/QT/RealTimeVideoConference"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
