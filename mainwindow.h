@@ -6,7 +6,7 @@
 #include <QPoint>
 
 QT_BEGIN_NAMESPACE
-n amespace Ui {
+namespace Ui {
 class MainWindow;
 }
 QT_END_NAMESPACE

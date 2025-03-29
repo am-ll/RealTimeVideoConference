@@ -77,7 +77,8 @@ RealTimeVideoConference_autogen/timestamp: CMakeFiles/RealTimeVideoConference.di
 
 RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp: D:/dev/QT/RealTimeVideoConference/qss.qrc
 RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp: CMakeFiles/RealTimeVideoConference_autogen.dir/AutoRcc_qss_EWIEGA46WW_Info.json
-RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp: D:/dev/QT/RealTimeVideoConference/qss/mainwindow.qss
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp: D:/dev/QT/RealTimeVideoConference/resources/qss/mainwindow.qss
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp: D:/dev/QT/RealTimeVideoConference/resources/qss/meetingroom.qss
 RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp: D:/Qt/5.15.2/mingw81_64/bin/rcc.exe
 RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp: D:/Qt/5.15.2/mingw81_64/bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\dev\QT\RealTimeVideoConference\build\Qt_5_15_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for qss.qrc"
@@ -85,14 +86,21 @@ RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp: D:/Qt/5.15.2/mingw81_64/
 
 RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/icons.qrc
 RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: CMakeFiles/RealTimeVideoConference_autogen.dir/AutoRcc_icons_EWIEGA46WW_Info.json
-RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/images/create_room.png
-RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/images/close.png
-RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/images/maximize.png
-RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/images/logo.png
-RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/images/join_room.png
-RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/images/background.jpg
-RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/images/settings.png
-RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/images/minimize.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/close.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/create_room.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/camera.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/mic_off.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/maximize.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/meeting_background.jpg
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/logo.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/screen_share.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/mic.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/screen_share_active.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/join_room.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/camera_off.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/background.jpg
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/minimize.png
+RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/dev/QT/RealTimeVideoConference/resources/images/settings.png
 RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/Qt/5.15.2/mingw81_64/bin/rcc.exe
 RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp: D:/Qt/5.15.2/mingw81_64/bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\dev\QT\RealTimeVideoConference\build\Qt_5_15_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic RCC for icons.qrc"
@@ -146,11 +154,26 @@ CMakeFiles/RealTimeVideoConference.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RealTimeVideoConference.dir/mainwindow.cpp.s"
 	D:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\dev\QT\RealTimeVideoConference\mainwindow.cpp -o CMakeFiles\RealTimeVideoConference.dir\mainwindow.cpp.s
 
+CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj: CMakeFiles/RealTimeVideoConference.dir/flags.make
+CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj: CMakeFiles/RealTimeVideoConference.dir/includes_CXX.rsp
+CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj: D:/dev/QT/RealTimeVideoConference/src/meetingroom.cpp
+CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj: CMakeFiles/RealTimeVideoConference.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\QT\RealTimeVideoConference\build\Qt_5_15_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj"
+	D:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj -MF CMakeFiles\RealTimeVideoConference.dir\src\meetingroom.cpp.obj.d -o CMakeFiles\RealTimeVideoConference.dir\src\meetingroom.cpp.obj -c D:\dev\QT\RealTimeVideoConference\src\meetingroom.cpp
+
+CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.i"
+	D:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\dev\QT\RealTimeVideoConference\src\meetingroom.cpp > CMakeFiles\RealTimeVideoConference.dir\src\meetingroom.cpp.i
+
+CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.s"
+	D:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\dev\QT\RealTimeVideoConference\src\meetingroom.cpp -o CMakeFiles\RealTimeVideoConference.dir\src\meetingroom.cpp.s
+
 CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp.obj: CMakeFiles/RealTimeVideoConference.dir/flags.make
 CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp.obj: CMakeFiles/RealTimeVideoConference.dir/includes_CXX.rsp
 CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp.obj: RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp
 CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp.obj: CMakeFiles/RealTimeVideoConference.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\QT\RealTimeVideoConference\build\Qt_5_15_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\QT\RealTimeVideoConference\build\Qt_5_15_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp.obj"
 	D:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp.obj -MF CMakeFiles\RealTimeVideoConference.dir\RealTimeVideoConference_autogen\EWIEGA46WW\qrc_qss.cpp.obj.d -o CMakeFiles\RealTimeVideoConference.dir\RealTimeVideoConference_autogen\EWIEGA46WW\qrc_qss.cpp.obj -c D:\dev\QT\RealTimeVideoConference\build\Qt_5_15_2_MinGW_64_bit-Debug\RealTimeVideoConference_autogen\EWIEGA46WW\qrc_qss.cpp
 
 CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp.i: cmake_force
@@ -165,7 +188,7 @@ CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46W
 CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp.obj: CMakeFiles/RealTimeVideoConference.dir/includes_CXX.rsp
 CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp.obj: RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp
 CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp.obj: CMakeFiles/RealTimeVideoConference.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\QT\RealTimeVideoConference\build\Qt_5_15_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\QT\RealTimeVideoConference\build\Qt_5_15_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp.obj"
 	D:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp.obj -MF CMakeFiles\RealTimeVideoConference.dir\RealTimeVideoConference_autogen\EWIEGA46WW\qrc_icons.cpp.obj.d -o CMakeFiles\RealTimeVideoConference.dir\RealTimeVideoConference_autogen\EWIEGA46WW\qrc_icons.cpp.obj -c D:\dev\QT\RealTimeVideoConference\build\Qt_5_15_2_MinGW_64_bit-Debug\RealTimeVideoConference_autogen\EWIEGA46WW\qrc_icons.cpp
 
 CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp.i: cmake_force
@@ -181,6 +204,7 @@ RealTimeVideoConference_OBJECTS = \
 "CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/RealTimeVideoConference.dir/main.cpp.obj" \
 "CMakeFiles/RealTimeVideoConference.dir/mainwindow.cpp.obj" \
+"CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj" \
 "CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp.obj" \
 "CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp.obj"
 
@@ -190,6 +214,7 @@ RealTimeVideoConference_EXTERNAL_OBJECTS =
 RealTimeVideoConference.exe: CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/mocs_compilation.cpp.obj
 RealTimeVideoConference.exe: CMakeFiles/RealTimeVideoConference.dir/main.cpp.obj
 RealTimeVideoConference.exe: CMakeFiles/RealTimeVideoConference.dir/mainwindow.cpp.obj
+RealTimeVideoConference.exe: CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj
 RealTimeVideoConference.exe: CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp.obj
 RealTimeVideoConference.exe: CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_icons.cpp.obj
 RealTimeVideoConference.exe: CMakeFiles/RealTimeVideoConference.dir/build.make
@@ -200,7 +225,7 @@ RealTimeVideoConference.exe: D:/Qt/5.15.2/mingw81_64/lib/libqtmain.a
 RealTimeVideoConference.exe: CMakeFiles/RealTimeVideoConference.dir/linkLibs.rsp
 RealTimeVideoConference.exe: CMakeFiles/RealTimeVideoConference.dir/objects1.rsp
 RealTimeVideoConference.exe: CMakeFiles/RealTimeVideoConference.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\dev\QT\RealTimeVideoConference\build\Qt_5_15_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable RealTimeVideoConference.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\dev\QT\RealTimeVideoConference\build\Qt_5_15_2_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable RealTimeVideoConference.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RealTimeVideoConference.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

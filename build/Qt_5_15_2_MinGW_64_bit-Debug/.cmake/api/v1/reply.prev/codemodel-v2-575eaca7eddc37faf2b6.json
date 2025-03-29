@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-3ac34fb83de39ac06877.json",
+					"jsonFile" : "directory-.-Debug-9590f5f568001dad798b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "RealTimeVideoConference::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-RealTimeVideoConference-Debug-5037607472aa22e00d32.json",
+					"jsonFile" : "target-RealTimeVideoConference-Debug-25945aa636608387ba44.json",
 					"name" : "RealTimeVideoConference",
 					"projectIndex" : 0
 				},

@@ -94,6 +94,7 @@ RealTimeVideoConference_autogen/timestamp: D:/CMake/bin/cmake.exe \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
   D:/Qt/5.15.2/mingw81_64/include/QtGui/QMouseEvent \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/QResizeEvent \
   D:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h \
   D:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h \
   D:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h \
@@ -121,6 +122,7 @@ RealTimeVideoConference_autogen/timestamp: D:/CMake/bin/cmake.exe \
   D:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   D:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
   D:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget \
   D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
   D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
   D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
@@ -345,7 +347,10 @@ RealTimeVideoConference_autogen/timestamp: D:/CMake/bin/cmake.exe \
   D:/dev/QT/RealTimeVideoConference/mainwindow.cpp \
   D:/dev/QT/RealTimeVideoConference/mainwindow.h \
   D:/dev/QT/RealTimeVideoConference/mainwindow.ui \
-  D:/dev/QT/RealTimeVideoConference/qss.qrc
+  D:/dev/QT/RealTimeVideoConference/qss.qrc \
+  D:/dev/QT/RealTimeVideoConference/src/meetingroom.cpp \
+  D:/dev/QT/RealTimeVideoConference/src/meetingroom.h \
+  D:/dev/QT/RealTimeVideoConference/src/meetingroom.ui
 
 
 D:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h:
@@ -532,6 +537,8 @@ D:/Qt/5.15.2/mingw81_64/include/QtCore/qglobalstatic.h:
 
 D:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h:
 
+D:/dev/QT/RealTimeVideoConference/src/meetingroom.h:
+
 D:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h:
 
 D:/Qt/5.15.2/mingw81_64/include/QtCore/qobject_impl.h:
@@ -626,6 +633,8 @@ D:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h:
 
 D:/Qt/5.15.2/mingw81_64/include/QtGui/QMouseEvent:
 
+D:/Qt/5.15.2/mingw81_64/include/QtGui/QResizeEvent:
+
 D:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h:
 
 D:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
@@ -679,6 +688,10 @@ D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_it
 D:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h:
 
 D:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMainWindow:
+
+D:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget:
+
+D:/dev/QT/RealTimeVideoConference/src/meetingroom.cpp:
 
 D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h:
 
@@ -831,6 +844,8 @@ D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared
 D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h:
 
 D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h:
+
+D:/dev/QT/RealTimeVideoConference/src/meetingroom.ui:
 
 D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/enable_special_members.h:
 

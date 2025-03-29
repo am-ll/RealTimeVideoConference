@@ -319,6 +319,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealTimeVideoConference.dir\build.make CMakeFiles/RealTimeVideoConference.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+src/meetingroom.obj: src/meetingroom.cpp.obj
+.PHONY : src/meetingroom.obj
+
+# target to build an object file
+src/meetingroom.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealTimeVideoConference.dir\build.make CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj
+.PHONY : src/meetingroom.cpp.obj
+
+src/meetingroom.i: src/meetingroom.cpp.i
+.PHONY : src/meetingroom.i
+
+# target to preprocess a source file
+src/meetingroom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealTimeVideoConference.dir\build.make CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.i
+.PHONY : src/meetingroom.cpp.i
+
+src/meetingroom.s: src/meetingroom.cpp.s
+.PHONY : src/meetingroom.s
+
+# target to generate assembly for a file
+src/meetingroom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RealTimeVideoConference.dir\build.make CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.s
+.PHONY : src/meetingroom.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -349,6 +373,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... src/meetingroom.obj
+	@echo ... src/meetingroom.i
+	@echo ... src/meetingroom.s
 .PHONY : help
 
 

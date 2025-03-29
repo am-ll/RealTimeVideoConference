@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
-        <file>qss/mainwindow.qss</file>
+        <file>resources/qss/mainwindow.qss</file>
+        <file>resources/qss/meetingroom.qss</file>
     </qresource>
 </RCC>

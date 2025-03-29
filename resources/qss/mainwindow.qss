@@ -7,7 +7,7 @@ QMainWindow {
 
 /* 中央窗口部件样式 */
 QWidget#centralwidget {
-    background-image: url(":/images/background.jpg");
+    background-image: url(":/resources/images/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@ QLabel#appLogoLabel {
     max-width: 40px;
     max-height: 40px;
     border: none;
-    image: url(":/images/logo.png");
+    image: url(":/resources/images/logo.png");
 }
 
 /* 左侧框架样式 */
@@ -67,17 +67,17 @@ QPushButton:pressed {
 
 /* 创建房间按钮样式 */
 QPushButton#createMeetingButton {
-    icon: url(":/images/create_room.png");
+    icon: url(":/resources/images/create_room.png");
     icon-size: 24px;
-    qproperty-icon: url(":/images/create_room.png");
+    qproperty-icon: url(":/resources/images/create_room.png");
     qproperty-iconSize: 24px 24px;
 }
 
 /* 加入房间按钮样式 */
 QPushButton#joinMeetingButton {
-    icon: url(":/images/join_room.png");
+    icon: url(":/resources/images/join_room.png");
     icon-size: 24px;
-    qproperty-icon: url(":/images/join_room.png");
+    qproperty-icon: url(":/resources/images/join_room.png");
     qproperty-iconSize: 24px 24px;
 }
 
@@ -89,9 +89,9 @@ QPushButton#settingsButton {
     max-height: 40px;
     background-color: transparent;
     padding: 8px;
-    icon: url(":/images/settings.png");
+    icon: url(":/resources/images/settings.png");
     icon-size: 24px;
-    qproperty-icon: url(":/images/settings.png");
+    qproperty-icon: url(":/resources/images/settings.png");
     qproperty-iconSize: 24px 24px;
 }
 
@@ -212,15 +212,15 @@ QPushButton#minButton, QPushButton#maxButton, QPushButton#closeButton {
 }
 
 QPushButton#minButton {
-    image: url(":/images/minimize.png");
+    image: url(":/resources/images/minimize.png");
 }
 
 QPushButton#maxButton {
-    image: url(":/images/maximize.png");
+    image: url(":/resources/images/maximize.png");
 }
 
 QPushButton#closeButton {
-    image: url(":/images/close.png");
+    image: url(":/resources/images/close.png");
 }
 
 QPushButton#minButton:hover, QPushButton#maxButton:hover {

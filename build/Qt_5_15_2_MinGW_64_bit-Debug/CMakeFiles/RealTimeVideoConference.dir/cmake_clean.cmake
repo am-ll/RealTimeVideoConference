@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RealTimeVideoConference.dir/main.cpp.obj.d"
   "CMakeFiles/RealTimeVideoConference.dir/mainwindow.cpp.obj"
   "CMakeFiles/RealTimeVideoConference.dir/mainwindow.cpp.obj.d"
+  "CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj"
+  "CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj.d"
   "CMakeFiles/RealTimeVideoConference_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/RealTimeVideoConference_autogen.dir/ParseCache.txt"
   "RealTimeVideoConference_autogen"

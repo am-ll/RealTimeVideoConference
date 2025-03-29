@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/dev/QT/RealTimeVideoConference/build/RealTimeVideoConference_autogen/mocs_compilation.cpp" "CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/mocs_compilation.cpp.obj.d"
   "D:/dev/QT/RealTimeVideoConference/main.cpp" "CMakeFiles/RealTimeVideoConference.dir/main.cpp.obj" "gcc" "CMakeFiles/RealTimeVideoConference.dir/main.cpp.obj.d"
   "D:/dev/QT/RealTimeVideoConference/mainwindow.cpp" "CMakeFiles/RealTimeVideoConference.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/RealTimeVideoConference.dir/mainwindow.cpp.obj.d"
+  "D:/dev/QT/RealTimeVideoConference/src/meetingroom.cpp" "CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj" "gcc" "CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

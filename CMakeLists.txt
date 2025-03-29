@@ -40,6 +40,7 @@ else()
             ${PROJECT_SOURCES}
             qss.qrc
             icons.qrc
+            src/meetingroom.h src/meetingroom.cpp src/meetingroom.ui
         )
     endif()
 endif()

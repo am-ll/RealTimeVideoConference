@@ -1,0 +1,320 @@
+/* 会议室样式表 */
+
+/* 整体窗口样式 - 移除与代码设置冲突的背景样式 */
+QWidget#MeetingRoom {
+    border: 1px solid #3498db;
+    border-radius: 10px;
+}
+
+/* 自定义标题栏样式 */
+QFrame#titleBarFrame {
+    background-color: rgba(44, 62, 80, 0.9);
+    border-bottom: 2px solid #3498db;
+}
+
+QLabel#appLogoLabel {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border: none;
+    image: url(":/resources/images/logo.png");
+    margin: 0px;
+    padding: 0px;
+}
+
+QLabel#appTitleLabel {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 设置按钮特殊样式 */
+QPushButton#settingsButton {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    background-color: transparent;
+    padding: 8px;
+    margin: 0px;
+    icon: url(":/resources/images/settings.png");
+    icon-size: 24px;
+    qproperty-icon: url(":/resources/images/settings.png");
+    qproperty-iconSize: 24px 24px;
+}
+
+QPushButton#settingsButton:hover {
+    background-color: rgba(52, 152, 219, 0.3);
+    border-radius: 20px;
+}
+
+/* 窗口控制按钮样式 */
+QPushButton#minButton, QPushButton#maxButton, QPushButton#closeButton {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border: none;
+    background-color: transparent;
+    border-radius: 0px;
+    padding: 8px;
+    margin: 0px;
+}
+
+QPushButton#minButton {
+    image: url(":/resources/images/minimize.png");
+}
+
+QPushButton#maxButton {
+    image: url(":/resources/images/maximize.png");
+}
+
+QPushButton#closeButton {
+    image: url(":/resources/images/close.png");
+}
+
+QPushButton#minButton:hover, QPushButton#maxButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+QPushButton#closeButton:hover {
+    background-color: #e74c3c;
+}
+
+/* 会议信息栏样式 */
+QFrame#meetingInfoFrame {
+    background-color: rgba(44, 62, 80, 0.9);
+    border-bottom: 2px solid #3498db;
+    margin-top: 5px;
+}
+
+QLabel#meetingTitleLabel {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QLabel#meetingIdLabel {
+    color: #ecf0f1;
+    font-size: 14px;
+    padding-right: 15px;
+    min-width: 180px;
+}
+
+QPushButton#leaveButton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+QPushButton#leaveButton:hover {
+    background-color: #c0392b;
+}
+
+/* 主要内容区域样式 */
+QFrame#contentFrame {
+    background-color: transparent;
+    border: none;
+    margin-top: 5px;
+}
+
+/* 视频区域样式 */
+QFrame#videoFrame {
+    background-color: transparent;
+    border: none;
+}
+
+QFrame#mainVideoContainer {
+    background-color: rgba(44, 62, 80, 0.5);
+    border-radius: 8px;
+    border: 1px solid rgba(52, 152, 219, 0.7);
+}
+
+/* 控制按钮区域样式 */
+QFrame#controlsFrame {
+    background-color: rgba(44, 62, 80, 0.6);
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+/* 麦克风按钮样式 */
+QPushButton#audioToggleButton {
+    background-color: #3498db;
+    border-radius: 25px;
+    icon-size: 24px 24px;
+    qproperty-iconSize: 24px 24px;
+    padding: 5px;
+}
+
+QPushButton#audioToggleButton:checked {
+    background-color: #e74c3c;
+}
+
+QPushButton#audioToggleButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton#audioToggleButton:checked:hover {
+    background-color: #c0392b;
+}
+
+/* 摄像头按钮样式 */
+QPushButton#videoToggleButton {
+    background-color: #3498db;
+    border-radius: 25px;
+    icon-size: 24px 24px;
+    qproperty-iconSize: 24px 24px;
+    padding: 5px;
+}
+
+QPushButton#videoToggleButton:checked {
+    background-color: #e74c3c;
+}
+
+QPushButton#videoToggleButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton#videoToggleButton:checked:hover {
+    background-color: #c0392b;
+}
+
+/* 屏幕共享按钮样式 */
+QPushButton#screenShareButton {
+    background-color: #3498db;
+    border-radius: 25px;
+    icon-size: 24px 24px;
+    qproperty-iconSize: 24px 24px;
+    padding: 5px;
+}
+
+QPushButton#screenShareButton:checked {
+    background-color: #27ae60;
+}
+
+QPushButton#screenShareButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton#screenShareButton:checked:hover {
+    background-color: #219653;
+}
+
+/* 侧边栏样式 */
+QFrame#sidebarFrame {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    border: 1px solid #e1e1e1;
+    margin-left: 5px;
+}
+
+/* 标签页样式 */
+QTabWidget {
+    background-color: transparent;
+}
+
+QTabBar::tab {
+    background-color: rgba(236, 240, 241, 0.8);
+    color: #2c3e50;
+    min-width: 80px;
+    min-height: 30px;
+    padding: 3px 8px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #bdc3c7;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 2px;
+}
+
+QTabBar::tab:selected {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+QTabBar::tab:hover {
+    background-color: rgba(245, 246, 250, 0.8);
+}
+
+/* 标签样式 */
+QLabel#participantsLabel, QLabel#chatLabel {
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 5px;
+    font-size: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 5px;
+}
+
+/* 参与者列表样式 */
+QListWidget#participantsList {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+QListWidget#participantsList::item {
+    padding: 10px;
+    border-bottom: 1px solid #ecf0f1;
+    min-height: 30px;
+}
+
+QListWidget#participantsList::item:selected {
+    background-color: #3498db;
+    color: white;
+}
+
+QListWidget#participantsList::item:hover {
+    background-color: #f5f6fa;
+}
+
+/* 聊天区域样式 */
+QTextBrowser#chatDisplay {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+QFrame#chatInputFrame {
+    background-color: transparent;
+    border: none;
+    margin-top: 5px;
+}
+
+QLineEdit#chatInput {
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: white;
+    font-size: 13px;
+}
+
+QLineEdit#chatInput:focus {
+    border-color: #3498db;
+}
+
+QPushButton#sendButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+QPushButton#sendButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton#sendButton:pressed {
+    background-color: #1f6da9;
+}

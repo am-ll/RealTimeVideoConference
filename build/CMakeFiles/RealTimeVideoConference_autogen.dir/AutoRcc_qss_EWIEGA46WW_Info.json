@@ -7,7 +7,11 @@
 	"CROSS_CONFIG" : false,
 	"GENERATOR" : "MinGW Makefiles",
 	"INCLUDE_DIR" : "D:/dev/QT/RealTimeVideoConference/build/RealTimeVideoConference_autogen/include",
-	"INPUTS" : [ "D:/dev/QT/RealTimeVideoConference/qss/mainwindow.qss" ],
+	"INPUTS" : 
+	[
+		"D:/dev/QT/RealTimeVideoConference/resources/qss/mainwindow.qss",
+		"D:/dev/QT/RealTimeVideoConference/resources/qss/meetingroom.qss"
+	],
 	"LOCK_FILE" : "D:/dev/QT/RealTimeVideoConference/build/CMakeFiles/RealTimeVideoConference_autogen.dir/AutoRcc_qss_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "qss" ],

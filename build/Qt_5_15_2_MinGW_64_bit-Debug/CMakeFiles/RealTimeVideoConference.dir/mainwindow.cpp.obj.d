@@ -357,4 +357,11 @@ CMakeFiles/RealTimeVideoConference.dir/mainwindow.cpp.obj: \
  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/QGraphicsDropShadowEffect \
  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qgraphicseffect.h \
  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
- D:/Qt/5.15.2/mingw81_64/include/QtWidgets/QHBoxLayout
+ D:/Qt/5.15.2/mingw81_64/include/QtWidgets/QHBoxLayout \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
+ D:\dev\QT\RealTimeVideoConference\src/meetingroom.h \
+ D:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget \
+ D:/Qt/5.15.2/mingw81_64/include/QtGui/QResizeEvent

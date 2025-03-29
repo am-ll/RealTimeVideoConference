@@ -295,4 +295,9 @@ CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/mocs_comp
  D:/Qt/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
  D:/Qt/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
  D:/Qt/5.15.2/mingw81_64/include/QtCore/QPoint \
- D:/Qt/5.15.2/mingw81_64/include/QtCore/qpoint.h
+ D:/Qt/5.15.2/mingw81_64/include/QtCore/qpoint.h \
+ D:\dev\QT\RealTimeVideoConference\build\Qt_5_15_2_MinGW_64_bit-Debug\RealTimeVideoConference_autogen\UVLADIE3JM/moc_meetingroom.cpp \
+ D:/dev/QT/RealTimeVideoConference/src/meetingroom.h \
+ D:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget \
+ D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
+ D:/Qt/5.15.2/mingw81_64/include/QtGui/QResizeEvent

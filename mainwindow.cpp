@@ -5,6 +5,8 @@
 #include <QGraphicsDropShadowEffect>
 #include <QPushButton>
 #include <QHBoxLayout>
+#include <QDebug>
+#include "src/meetingroom.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -12,6 +14,9 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     
+    MeetingRoom *Meet=new MeetingRoom;
+    Meet->show();
+
     // 设置无边框窗口
     setWindowFlags(Qt::FramelessWindowHint);
     setAttribute(Qt::WA_TranslucentBackground);
@@ -55,12 +60,16 @@ MainWindow::MainWindow(QWidget *parent)
     connect(closeButton, &QPushButton::clicked, this, &MainWindow::close);
     
     // 加载QSS样式表
-    QFile styleFile(":/qss/mainwindow.qss");
+    QFile styleFile(":/resources/qss/mainwindow.qss");
     if (styleFile.open(QFile::ReadOnly)) {
         QString styleSheet = QString::fromUtf8(styleFile.readAll());
         setStyleSheet(styleSheet);
         styleFile.close();
+    } else {
+        qDebug() << "无法加载样式表文件";
     }
+
+
 }
 
 void MainWindow::toggleMaximized()

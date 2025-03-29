@@ -19,6 +19,12 @@
 },
 {
   "directory": "D:/dev/QT/RealTimeVideoConference/build",
+  "command": "D:\\Qt\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/RealTimeVideoConference.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RealTimeVideoConference.dir\\src\\meetingroom.cpp.obj -c D:\\dev\\QT\\RealTimeVideoConference\\src\\meetingroom.cpp",
+  "file": "D:/dev/QT/RealTimeVideoConference/src/meetingroom.cpp",
+  "output": "CMakeFiles/RealTimeVideoConference.dir/src/meetingroom.cpp.obj"
+},
+{
+  "directory": "D:/dev/QT/RealTimeVideoConference/build",
   "command": "D:\\Qt\\Tools\\mingw810_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/RealTimeVideoConference.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RealTimeVideoConference.dir\\RealTimeVideoConference_autogen\\EWIEGA46WW\\qrc_qss.cpp.obj -c D:\\dev\\QT\\RealTimeVideoConference\\build\\RealTimeVideoConference_autogen\\EWIEGA46WW\\qrc_qss.cpp",
   "file": "D:/dev/QT/RealTimeVideoConference/build/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp",
   "output": "CMakeFiles/RealTimeVideoConference.dir/RealTimeVideoConference_autogen/EWIEGA46WW/qrc_qss.cpp.obj"

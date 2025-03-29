@@ -89,6 +89,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"D:/dev/QT/RealTimeVideoConference/src/meetingroom.h",
+			"MU",
+			"UVLADIE3JM/moc_meetingroom.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -143,7 +149,8 @@
 	"SOURCES" : 
 	[
 		[ "D:/dev/QT/RealTimeVideoConference/main.cpp", "MU", null ],
-		[ "D:/dev/QT/RealTimeVideoConference/mainwindow.cpp", "MU", null ]
+		[ "D:/dev/QT/RealTimeVideoConference/mainwindow.cpp", "MU", null ],
+		[ "D:/dev/QT/RealTimeVideoConference/src/meetingroom.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
